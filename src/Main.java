@@ -24,6 +24,6 @@ public class Main {
             System.out.println("Sayi 20'den büyüktür");
         }
         //----------------------------------------------
-
+        System.out.println("merhaba");
     }
     }
