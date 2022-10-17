@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -80,6 +82,21 @@ public class Main {
         }while(j<11) ;
         System.out.println("do-while döngüsü bitti");
         //------------------------------------------------------------
+        String[] ogrenciler = new String[4] ;
+        ogrenciler[0] ="Engin" ;
+        ogrenciler[1] ="Derin" ;
+        ogrenciler[2] ="Salih" ;
+        ogrenciler[3] ="Ahmet" ;
+        //ogrenciler[4]="Ali   ;
+
+        for (int t=0 ; t<ogrenciler.length ; t++){
+            System.out.println(ogrenciler[t]);
+        }
+        System.out.println("-----------------------------");
+
+        for (String ogrenci : ogrenciler ){
+            System.out.println(ogrenci);
+        }
 
 
 
