@@ -184,79 +184,74 @@ public class Main {
         }
         System.out.println("-----------------------------JavaDers20");
 
-        char harf='E';
+        char harf = 'E';
 
-        switch (harf){
+        switch (harf) {
             case 'A':
             case 'I':
             case 'O':
             case 'U':
                 System.out.println("Kalın Sesli Harf");
                 break;
-            default :
+            default:
                 System.out.println("İnce Sesli Harf");
         }
         System.out.println("-----------------------------JavaDers21");
-        int number21 = 28 ;
-        int total21 = 0 ;
+        int number21 = 28;
+        int total21 = 0;
 
-        for(int f=1 ; f<number21 ; f++){
-            if(number21 % f == 0 ){
+        for (int f = 1; f < number21; f++) {
+            if (number21 % f == 0) {
                 total21 = total21 + f;
             }
         }
 
-        if(total21 == number21){
+        if (total21 == number21) {
             System.out.println("Mükemmel Sayıdır");
-        }
-        else{
+        } else {
             System.out.println("Mükemmel Sayı Değildir");
         }
         System.out.println("-----------------------------JavaDers22");
 
-        int number22 = 220 ;
-        int number23 = 284 ;
-        int total22 = 0 ;
-        int total23 = 0 ;
+        int number22 = 220;
+        int number23 = 284;
+        int total22 = 0;
+        int total23 = 0;
 
-        for(int v=1 ; v<number22 ; v++){
-            if(number22 % v == 0 ){
+        for (int v = 1; v < number22; v++) {
+            if (number22 % v == 0) {
                 total22 = total22 + v;
             }
         }
 
-        for(int v=1 ; v<number23 ; v++){
-            if(number23 % v == 0 ){
+        for (int v = 1; v < number23; v++) {
+            if (number23 % v == 0) {
                 total23 = total23 + v;
             }
         }
 
-        if(number22==total23 && number23==total22){
+        if (number22 == total23 && number23 == total22) {
             System.out.println("bu iki sayı arkadaştır");
-        }
-        else{
+        } else {
             System.out.println("bu iki sayı arkadaş değildir");
         }
         System.out.println("-----------------------------JavaDers23");
 
-        int[] sayilar = new int[]{1,2,5,7,9,0};
+        int[] sayilar = new int[]{1, 2, 5, 7, 9, 0};
         int aranacak = 5;
-        boolean varMi = false ;
+        boolean varMi = false;
 
-        for(int sayi23 : sayilar){}
-
-
-
-
-
-
-
-
-
-
-
-
-
+        for (int sayi23 : sayilar) {
+            if (sayi23 == aranacak) {
+                varMi = true;
+                break;
+            }
+        }
+        if (varMi) {
+            System.out.println("sayı mevcuttur");
+        } else {
+            System.out.println("sayı mevcut değildir");
+        }
 
 
     }
